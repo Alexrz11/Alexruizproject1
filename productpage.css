@@ -1,0 +1,78 @@
+@import url();
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+
+}
+html {
+    overflow-y:auto; 
+    font-family: sans-serif;
+  }
+  h3,h4,h5,a,li{
+    font-family:sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color:black;
+    text-decoration: none;
+}
+.buttons{
+ padding-top: 30px;
+}
+
+body{
+ background-color: #eee;
+ 
+
+}
+.center{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img{
+    max-width: 1200px;
+    align-items: center;
+    padding-left: 5px;
+}
+header{
+    font-size: 42px;
+    background-color:rgb(159, 159, 159);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+footer{
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 50px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    text-align: center;
+}
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+    text-align: center;
+}
+p{
+    display: block;
+margin: auto;
+max-width: 1000px;
+}
